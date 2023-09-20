@@ -6,14 +6,15 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Jano - Creative Multipurpose React NextJS Template"
+          content="RouteRider - Discover, share, and explore motorcycle routes.
+          connect with communities and enhance your riding experience."
         />
         <meta
           name="keywords"
-          content="agency, bootstrap 5, business, business multipurpose, charity, creative, creative template, crypto, education, hosting, insurance, landing page, portfolio, real estate, responsive, react, nextjs"
+          content="motorcycles, bootstrap 5, business, routes, riders, community, track rides, groupe rides, route planning, 3d maps, scenic routes, motorcycle events, rider profiles, group rides, twisty roads, react, nextjs"
         />
 
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="" />
       </Head>
       <body>
         <Main />

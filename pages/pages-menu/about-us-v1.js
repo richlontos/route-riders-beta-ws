@@ -3,7 +3,7 @@ import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
 import Partners from "../../components/services/Partners";
 import Faq from "../../components/services/Faq";
-import Testimonial from "../../components/home-page/home-3/Testimonial";
+import Testimonial from "../../components/home-page/home-1/Testimonial";
 import Block from "../../components/services/Block";
 import Link from "next/link";
 import VideoBlock from "../../components/about/VideoBlock";
