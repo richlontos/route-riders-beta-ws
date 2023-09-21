@@ -31,7 +31,7 @@ const DefaulHeader = () => {
         <div className="d-flex align-items-center justify-content-between">
           <div className=" order-lg-0">
             <Link href="/" className="d-block">
-              <h2>RouteRiders</h2>
+              <h3>RouteRiders</h3>
               {/* <Image
                 src="/images/media/rrlogo.png"
                 alt="logo"
@@ -48,7 +48,7 @@ const DefaulHeader = () => {
               <i className="bi bi-person" />
             </Link>
             <Link
-              href="/contact"
+              href="/pages-menu/pricing"
               className="btn-twentyOne fw-500 tran3s d-none d-lg-block"
             >
               Get RR Pro!

@@ -46,9 +46,10 @@ const yearlyPricingPlans = [
     plan: "GSXR riders be like",
     features: [
       "Route Tracking",
-      "Discover Top Riding Spots",
+      "Discover Riding Spots",
       "Friend Locator",
-      "...and much more!"
+      "No Cell Required",
+      "...and more!",
     ],
   },
   {
@@ -56,11 +57,11 @@ const yearlyPricingPlans = [
     price: "$29.99",
     plan: "Lit Status",
     features: [
-      "All Regular Plan Features",
+      "All Regular Features",
       "Exclusive Ride Suggestions",
-      "Enhanced Route Planner with Winding Roads",
+      "Enhanced Route Planner",
       "Interactive 3D Maps",
-      "...and additional features!"
+      "...and more!",
     ],
     active: true,
   },
@@ -69,11 +70,11 @@ const yearlyPricingPlans = [
     price: "$49.99",
     plan: "Top-Tier!",
     features: [
-      "All Flexible Plan Offerings",
+      "All Flexible Features",
       "Full PRO Access",
-      "Free Shipping at Partnered Stores",
-      "Exclusive Discounts, Rewards, and Content",
-      "...and even more exclusive benefits!"
+      "Free Shipping on Gear",
+      "Exclusive Discounts",
+      "...and more!",
     ],
   },
 ];
@@ -176,9 +177,7 @@ const Pricing = () => {
                           </ul>
                         </div>
                         <div className="pr-footer pt-55 lg-pt-30">
-                          <div className="trial-text opacity-75 mb-20">
-                            Up to 7 user + 1.99 per user
-                          </div>
+                          
                           <a
                             href="#"
                             className="signup-btn fw-500 tran3s w-100"

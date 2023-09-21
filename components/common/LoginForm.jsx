@@ -22,7 +22,7 @@ const LoginForm = () => {
         <div className="col-12">
           <div className="input-group-meta mb-30">
             <label>Email</label>
-            <input type="email" placeholder="hasan@gmail.com" required />
+            <input type="email" placeholder="Email" required />
           </div>
         </div>
         {/* End .col-12 */}

@@ -16,9 +16,11 @@ const SignUp = () => {
         <div className="inner-content position-relative">
           <div className="d-flex align-items-center justify-content-between">
             <div className="logo order-lg-0">
-              <Link href="/" className="d-block">
-                <img src="/images/logo/logo_01.png" alt="" width={95} />
-              </Link>
+              <h4>RouteRiders</h4>
+
+              {/* <Link href="/" className="d-block">
+                <img src="" alt="" width={95} />
+              </Link> */}
             </div>
             <Link href="/" className="go-back-btn fw-500 tran3s">
               Go to home
@@ -46,7 +48,7 @@ const SignUp = () => {
         </div>
         {/* End form-wrapper */}
 
-        <p className="mt-auto pt-50">Copyright @{currentYear} jano inc.</p>
+        <p className="mt-auto pt-50">Copyright @{currentYear} RouteRiders.</p>
         <img
           src="/images/assets/ils_11.png"
           alt="illustration"

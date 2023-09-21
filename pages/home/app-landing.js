@@ -8,9 +8,6 @@ import WhyChoose from "../../components/home-page/home-1/WhyChoose";
 import Features3 from "../../components/home-page/home-1/Features3";
 import Testimonial from "../../components/home-page/home-1/Testimonial";
 import Faq from "../../components/home-page/home-1/Faq";
-import Pricng from "../../components/home-page/home-1/Pricng";
-import LogoGroup from "../../components/home-page/home-1/LogoGroup";
-import AddressInfo from "../../components/home-page/home-1/AddressInfo";
 import Subsribe from "../../components/home-page/home-1/Subsribe";
 import Social from "../../components/home-page/home-1/Social";
 import Link from "next/link";
@@ -340,115 +337,8 @@ const AppLanding = () => {
           className="lazy-img shapes shape-three"
         />
       </div>
-
-      {/*
-        =====================================================
-        Pricing Section Two
-        =====================================================
-        */}
-      <div className="pricing-section-two position-relative pt-150 pb-150 mt-180 lg-mt-120 lg-pt-70 lg-pb-70">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8 col-md-9 m-auto">
-              <div
-                className="title-style-four text-center pb-70 lg-pb-40 "
-                data-aos="fade-up"
-              >
-                <h2 className="main-title fw-500 tx-dark m0">
-                  No hidden <span>charge</span>, Choose your plan.
-                </h2>
-              </div>
-              {/* /.title-style-four */}
-            </div>
-          </div>
-          <Pricng />
-        </div>
-        <img
-          src="/images/shape/shape_52.svg"
-          alt="shape"
-          className="lazy-img shapes shape-one"
-        />
-        <img
-          src="/images/shape/shape_53.svg"
-          alt="shape"
-          className="lazy-img shapes shape-two"
-        />
-        <img
-          src="/images/shape/shape_54.svg"
-          alt="shape"
-          className="lazy-img shapes shape-three"
-        />
-        <img
-          src="/images/shape/shape_55.svg"
-          alt="shape"
-          className="lazy-img shapes shape-four"
-        />
-      </div>
-
       {/* 
-        =============================================
-        Partner Section Two
-        ============================================== 
-        */}
-      <div className="partner-section-two position-relative mt-225 mb-250 md-mt-120 md-mb-120">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-5 col-lg-6" data-data-aos="fade-right">
-              <div className="title-style-four">
-                <div className="sc-title-two" style={{ color: "#6A45FF" }}>
-                  Our Partners
-                </div>
-                <h2 className="main-title fw-500 tx-dark m0">
-                  Our Trusted Partners.
-                </h2>
-              </div>
-              {/* /.title-style-four */}
-              <p className="fs-20 pt-30 pe-xxl-5">
-                Lorem ipsum dolor on adipisci elit sed do eiusmod tempor dolo
-                mag dsu aliqua eni ad minim lut emit.
-              </p>
-            </div>
-          </div>
-        </div>
-        {/* /.container */}
-
-        <div className="logo-wrapper d-flex flex-wrap justify-content-center align-items-center">
-          <LogoGroup />
-        </div>
-        <img
-          src="/images/shape/shape_49.svg"
-          alt="logo"
-          className="lazy-img shapes shape-one"
-        />
-        <img
-          src="/images/shape/shape_50.svg"
-          alt="logo"
-          className="lazy-img shapes shape-two"
-        />
-        <img
-          src="/images/shape/shape_51.svg"
-          alt="logo"
-          className="lazy-img shapes shape-three"
-        />
-      </div>
-
-      {/*
-        =====================================================
-        Fancy Short Banner Four
-        =====================================================
-        */}
-      <div className="fancy-short-banner-four position-relative">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-10 m-auto">
-              <div className="row gx-xxl-5">
-                <AddressInfo />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      // 
       {/*
         =====================================================
         Footer
@@ -460,8 +350,7 @@ const AppLanding = () => {
             <div className="col-xxl-8 col-xl-9 col-md-9 m-auto text-center">
               <div className="title-style-four" data-aos="fade-up">
                 <h2 className="main-title fw-500 text-white m0">
-                  Ready to use our App? It’s just a matter of
-                  <span>one Click</span>
+                  Ready to use our App?
                 </h2>
               </div>
               {/* /.title-style-four */}
@@ -483,9 +372,10 @@ const AppLanding = () => {
             <div className="row">
               <div className="col-lg-4">
                 <div className="logo d-flex justify-content-center justify-content-lg-start">
-                  <Link href="/">
-                    <img src="/images/logo/logo_03.png" alt="" width={77} />
-                  </Link>
+                  <h3>RouteRiders</h3>
+                  {/* <Link href="/">
+                    <img src="/images/logo/rrlogo.png" alt="" width={77} />
+                  </Link> */}
                 </div>
               </div>
               {/* End .col-lg-4 */}
@@ -498,8 +388,8 @@ const AppLanding = () => {
 
               <div className="col-lg-4 text-center">
                 <h4 className="text-white">We’r always happy to help.</h4>
-                <a href="mailto:ask@januinc.com" className="mail">
-                  ask@januinc.com
+                <a href="mailto:support@routeriders.com" className="mail">
+                  support@routeriders.com
                 </a>
               </div>
             </div>

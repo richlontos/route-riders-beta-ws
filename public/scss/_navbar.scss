@@ -291,3 +291,24 @@
   .navbar [class*="mega-dropdown"] .menu-column {padding-bottom: 0;}
 }
 /*(max-width: 991px)*/
+
+
+// test style for navbar
+
+/* CSS for custom header layout */
+.custom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center vertically within the header */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.custom-header .logo {
+  /* Style your logo here, for example: */
+  flex: 0 0 auto; /* Prevent the logo from growing */
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.custom-header .right-widget {
+  /* Style the right widget (navigation, login, etc.) here */
+}

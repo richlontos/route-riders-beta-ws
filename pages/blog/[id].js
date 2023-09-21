@@ -24,7 +24,7 @@ const DynamicBlogDetails = () => {
     if (!id) <h1>Loading...</h1>;
     else setBlogItem(blogsData.find((item) => item.id == id));
 
-    return () => {};
+    return () => { };
   }, [id]);
 
   return (
@@ -47,9 +47,9 @@ const DynamicBlogDetails = () => {
           <div className="row">
             <div className="col-xxl-8 col-lg-9 wow fadeInLeft">
               <p className="blog-pubish-date">
-                Digital Marketing . 2 July . By
+                Motorcycle Adventure . 2 July . By
                 <a href="#" className="fw-500">
-                  Hasan Ira
+                  Alex Ryder
                 </a>
               </p>
               <h2 className="blog-heading-one tx-dark">{blog?.title}</h2>
@@ -88,18 +88,10 @@ const DynamicBlogDetails = () => {
                       />
                     )}
                     <p>
-                      Tomfoolery crikey bits and bobs brilliant bamboozled down
-                      the pub amongst brolly hanky panky, cack bonnet arse over
-                      tit burke bugger all mate bodge. cillum dolore eu fugiat
-                      pariatur. Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est
-                      laborum.Suspendisse interdum consectetur libero id faucibu
-                      nisl. Lacus vel facilisis volutpat est velit egestas.
+                      Riding along the Pacific coast, the wind in my face and the rhythm of the engine below, there's nothing quite like the feeling of freedom on two wheels. The open road calls out, each turn revealing a new vista, a fresh perspective.
                     </p>
                     <p>
-                      Tempus imperdiet nulla malesuada pellentesque elit eget
-                      gravida cum. Sit amet ris nullam eget felis. Enim praesent
-                      elementum facilisis leo. Ultricies leo integer.
+                      My journey began in sunny California, where the highways stretch long and the ocean views are unparalleled. From there, I ventured into the mountains, winding roads taking me to breathtaking heights.
                     </p>
                     <Image
                       width={800}
@@ -109,29 +101,17 @@ const DynamicBlogDetails = () => {
                       className="lazy-img image-meta w-100"
                     />
                     <h4>
-                      This response is important for our ability to from
-                      mistakes but it alsogives rise to self-criticism.
+                      The beauty of motorcycle travel is that every trip becomes a story, a testament to adventure and discovery.
                     </h4>
                     <p>
-                      One touch of a red-hot stove is usually all we need to
-                      avoid that kind of discomfort in future The same is true
-                      as we experienc the emotional of stress from our
-                      instances. We are quickly learn to fear and thus
-                      automatically. Lorem ipsum dolor sit amet, consectetur
-                      adipis elit quis extraction labore.
+                      From the bustling streets of urban cities to the tranquil lanes of the countryside, my bike has been my constant companion, and the road, my canvas. The memories created, the friendships forged, and the challenges overcome make every ride special.
                     </p>
-                    <h2>Work Harder &amp; Gain Succsess</h2>
+                    <h2>The Bond with the Machine</h2>
                     <p>
-                      One touch of a red-hot stove is usually all we need to
-                      avoid that kind of discomfort in quis elit future. The
-                      same Duis aute irure dolor in reprehenderit .
+                      Every biker understands the special bond with their machine. It's more than just metal and rubber; it's a part of you, an extension of your spirit.
                     </p>
                     <p>
-                      is true as we experience the emotional sensation of stress
-                      from our firs social rejec ridicule.We quickly learn to
-                      fear and thus automatically. potentially stressful
-                      situation of wlir ext quiert all kinds, including the most
-                      common of all.
+                      This journey has taught me the importance of that bond, how a well-maintained bike can make a world of difference on long rides.
                     </p>
                     <div className="bottom-widget d-sm-flex align-items-center justify-content-between">
                       <Tag />
@@ -143,7 +123,7 @@ const DynamicBlogDetails = () => {
 
                   <div className="blog-comment-area">
                     <h3 className="blog-inner-title tx-dark pb-15">
-                      2 Comments
+                      2 Rider's Thoughts
                     </h3>
                     <SingleComments />
                   </div>
@@ -151,14 +131,13 @@ const DynamicBlogDetails = () => {
 
                   <div className="blog-comment-form">
                     <h3 className="blog-inner-title tx-dark">
-                      Leave A Comment
+                      Share Your Ride Story
                     </h3>
                     <p>
                       <Link href="/login" className="text-decoration-underline">
                         Sign
                       </Link>
-                      in to post your comment or signup if you dont have any
-                      account.
+                      in to share your story or sign up if you're new here.
                     </p>
                     <CommentBox />
                   </div>
@@ -175,13 +154,13 @@ const DynamicBlogDetails = () => {
                   {/* /.blog-sidebar-search */}
 
                   <div className="blog-sidebar-category mb-60 md-mb-50">
-                    <h4 className="sidebar-title">Category</h4>
+                    <h4 className="sidebar-title">Ride Types</h4>
                     <Category />
                   </div>
                   {/* /.blog-sidebar-category */}
 
                   <div className="sidebar-recent-news mb-60 md-mb-50">
-                    <h4 className="sidebar-title">Recent News</h4>
+                  <h4 className="sidebar-title">Recent Journeys</h4>
                     <RecentPost />
                   </div>
                   {/* /.sidebar-recent-news */}

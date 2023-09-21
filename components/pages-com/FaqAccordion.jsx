@@ -2,52 +2,53 @@ const FaqAccordion = () => {
   const accordionItems = [
     {
       id: "faq-1",
-      question: "How does the free trial work?",
+      question: "How does the app track my rides?",
       answer:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "The app uses a combination of GPS and motion sensors to accurately track your motorcycle rides. It ensures minimal battery consumption while maintaining precision.",
     },
     {
       id: "faq-2",
-      question: "How do you find different criteria in your process?",
+      question: "How do I find recommended routes in my area?",
       answer:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Our app has a 'Discover' section where you can find routes recommended by other riders. You can filter these based on difficulty, scenery, or distance.",
     },
     {
       id: "faq-3",
-      question: "What do you look for in a founding team?",
+      question: "Can I connect with other riders using this app?",
       answer:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Absolutely! We have a community feature that allows you to connect, chat, and plan rides with fellow enthusiasts in your area.",
     },
     {
       id: "faq-4",
-      question: "Do you recommend Pay as you go or Pre pay?",
+      question: "Is there an offline mode?",
       answer:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Yes, you can download maps and routes for offline use. This is especially handy in areas with weak mobile reception.",
     },
     {
       id: "faq-5",
-      question: "What do I get for $0 with my plan?",
+      question: "Is there a premium version of the app?",
       answer:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Yes, we offer a premium subscription that unlocks additional features such as advanced tracking, no ads, and exclusive community events.",
     },
     {
       id: "faq-6",
-      question: "If I already have a website, can I transfer it to another?",
+      question: "Can I transfer my ride data to a new device?",
       answer:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Certainly! Just ensure you're logged in to your account on the new device, and all your ride data will be synchronized automatically.",
     },
     {
       id: "faq-7",
-      question: "How can I accept credit cards online?",
+      question: "Can I integrate the app with my action camera?",
       answer:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Yes, our app has integrations with certain action camera brands. This allows you to overlay your ride stats on your video footage.",
     },
     {
       id: "faq-8",
-      question: "What can I use to build my website?",
+      question: "What if I encounter a bug or issue?",
       answer:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Our support team is always ready to help. You can report issues directly through the app, and we'll get on it ASAP.",
     },
+
   ];
 
   return (
@@ -68,9 +69,8 @@ const FaqAccordion = () => {
           </div>
           <div
             id={`collapse-${index}`}
-            className={`accordion-collapse collapse ${
-              index === 2 ? "show" : ""
-            }`}
+            className={`accordion-collapse collapse ${index === 2 ? "show" : ""
+              }`}
             aria-labelledby={`heading-${index}`}
             data-bs-parent="#accordionOne"
           >

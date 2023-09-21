@@ -10,9 +10,9 @@ import Counter from "../../components/about/Counter";
 
 const AboutUsV1 = () => {
   const features = [
-    { text: "Amazing communication." },
-    { text: "Best trending designing experience." },
-    { text: "Email & Live chat." },
+    { text: "Exceptional riding experiences." },
+    { text: "Guided adventure tours." },
+    { text: "Safety-first approach." },
   ];
 
   const starRating = Array(5)
@@ -45,10 +45,10 @@ const AboutUsV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 md-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  More About us.
+                  Our Journey.
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  We’r the top rated agency.
+                  Masters of the Open Road.
                 </h2>
               </div>
             </div>
@@ -56,13 +56,13 @@ const AboutUsV1 = () => {
           <div className="row">
             <div className="col-xl-8 col-lg-9 ms-auto">
               <div className="ps-xxl-5" data-aos="fade-left">
-                <h6 className="mb-30">Our History &amp; Goal.</h6>
+                <h6 className="mb-30">Our Legacy & Vision.</h6>
                 <p className="text-lg tx-dark">
-                  Our founders Dustin Moskovitz and Justin Rosenstein met while
-                  leading Engineering teams at Facebook. As operations scaled,
-                  they grew frustrated by how difficult it was to coordinate.
-                  incidi utl abor et dolor magna aliu. enim ad mim venam, quis
-                  nostru labore lorem dus amet sample text.
+                  From humble beginnings to becoming the top choice for
+                  motorcycle enthusiasts, our journey has been one for the
+                  ages. Every twist and turn, every mile traveled, has added to
+                  our story. We believe in the freedom of the open road and the
+                  thrill of new discoveries.
                 </p>
                 <div className="row">
                   <Counter />
@@ -109,15 +109,15 @@ const AboutUsV1 = () => {
                 data-aos="fade-right"
               >
                 <div className="title-style-six">
-                  <div className="sc-title-two text-uppercase">WHY US</div>
+                  <div className="sc-title-two text-uppercase">WHY CHOOSE US</div>
                   <h2 className="main-title fw-500 tx-dark">
-                    Everything with Marketing.
+                    Riding Beyond Expectations.
                   </h2>
                 </div>
                 {/* /.title-style-ten */}
                 <p className="fs-20 pt-20 pb-30 lg-pt-10 lg-pb-20">
-                  Turn your business into a sales machine today with lorem
-                  Things go wrong have questions.
+                  We're not just about motorcycles; we're about the community,
+                  the camaraderie, and the pure joy of the ride.
                 </p>
                 <ul className="style-none list-item">
                   {features.map((feature, index) => (
@@ -153,7 +153,7 @@ const AboutUsV1 = () => {
 			=====================================================
 			*/}
       <div className="team-section-two position-relative pt-200 lg-pt-120">
-        
+
         <img
           src="/images/shape/shape_172.svg"
           alt="shape"
@@ -171,7 +171,7 @@ const AboutUsV1 = () => {
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
-            <h2 className="main-title fw-500 tx-dark m0">Client Feedback</h2>
+            <h2 className="main-title fw-500 tx-dark m0">Riders' Testimonies</h2>
           </div>
         </div>
         {/* End .container */}
@@ -199,19 +199,18 @@ const AboutUsV1 = () => {
             <div className="col-lg-5">
               <div className="block-style-seven" data-aos="fade-right">
                 <div className="title-style-six">
-                  <div className="sc-title-two text-uppercase">SOLUTION</div>
+                  <div className="sc-title-two text-uppercase">SERVICES</div>
                   <h2 className="main-title fw-500 tx-dark">
-                    Digital solutions for businss.
+                    Tailored Riding Experiences.
                   </h2>
                 </div>
-                {/* /.title-style-ten */}
                 <p className="fs-20 pt-10 pb-30 lg-pb-20">
-                  Do you have more question about our solution? Just send us a
-                  message for help
+                  Curious about our riding services or need to customize an
+                  adventure? Reach out to us.
                 </p>
                 <div className="btn-eighteen position-relative d-inline-block tx-dark">
-                  <Link href="/page-menu/about-us-v1" className="fw-500 tran3s">
-                    More About solution
+                  <Link href="/services" className="fw-500 tran3s">
+                    Explore our Services
                     <i className="fa-solid fa-angle-right" />
                   </Link>
                 </div>
@@ -245,21 +244,16 @@ const AboutUsV1 = () => {
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
                       <div className="sc-title fs-18 pb-10">
-                        Have Any Project?
+                        Ready for an Adventure?
                       </div>
                       <h2 className="main-title fw-500 text-white m0">
-                        Don’t hesitate to send us message.
+                        Start your journey with us.
                       </h2>
                     </div>
                   </div>
-                  {/* End .col-6 */}
-
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
-                    <Link
-                      href="/contact"
-                      className="btn-twentyOne fw-500 tran3s"
-                    >
-                      Get Started Today!
+                    <Link href="/contact" className="btn-twentyOne fw-500 tran3s">
+                      Join Us Today!
                     </Link>
                   </div>
                 </div>

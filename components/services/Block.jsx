@@ -11,8 +11,8 @@ const Block = () => {
         </div>
         <div className="col-md-7 col-sm-8 wow fadeInDown">
           <div className="block-wrapper block-one">
-            <h3 style={{ color: "#FFAE10" }}>10million+</h3>
-            <p>Customers trust us &amp; have bought insurance.</p>
+            <h3 style={{ color: "#FFAE10" }}>5 Years+</h3>
+            <p>Innovating and leading in the industry.</p>
           </div>
           {/* /.block-wrapper */}
         </div>
@@ -23,13 +23,13 @@ const Block = () => {
         <div className="col-sm-7 wow fadeInDown">
           <div className="block-wrapper block-two position-relative mt-50 sm-mt-30">
             <h3 style={{ color: "#9650EF" }}>
-              50+ <br />
-              <span>Insurance</span>
+              20,000+ <br />
+              <span>Active Riders</span>
             </h3>
             <p>
-              Partnered with us so that you can compare easily &amp;
-              transparently
+              Join a vibrant community of motorcycle enthusiasts.
             </p>
+
             <img
               src="/images/shape/shape_138.svg"
               alt="sahpe"
@@ -43,9 +43,9 @@ const Block = () => {
         <div className="col-sm-5 wow fadeInUp">
           <div className="block-wrapper block-three mt-50 sm-mt-30">
             <h3 style={{ color: "#00BDE6" }}>
-              <span>Claims</span>
+              <span>Expert Team</span>
             </h3>
-            <p>Get Support by expert easily.</p>
+            <p>Dedicated professionals committed to excellence.</p>
           </div>
           {/* /.block-wrapper */}
           <img

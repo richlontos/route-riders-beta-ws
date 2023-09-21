@@ -1,7 +1,7 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import PricingTable from "../../components/pricing/Pricing";
+import PricingTable from "../../components/home-page/home-1/Pricng";
 import Link from "next/link";
 
 const Pricing = () => {

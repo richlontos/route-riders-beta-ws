@@ -1,22 +1,23 @@
 const accordionItems = [
   {
     id: 1,
-    title: "Google ads setup & management",
+    title: "Route Mapping & Tracking",
     content:
-      "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook.",
+      "Utilize our advanced algorithms to map the best motorcycle routes and track your rides seamlessly.",
   },
   {
     id: 2,
-    title: "Web Design & Development",
+    title: "Motorcycle Maintenance Tips",
     content:
-      "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook.",
+      "Benefit from expert advice and step-by-step guides to ensure your motorcycle stays in pristine condition.",
   },
   {
     id: 3,
-    title: "Reputation management",
+    title: "Community Events & Rallies",
     content:
-      "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook.",
-  },
+      "Stay updated with the latest motorcycle events, rallies, and community meet-ups in your vicinity.",
+  }
+
 ];
 
 const Faq = () => {
@@ -38,9 +39,8 @@ const Faq = () => {
           </div>
           <div
             id={`collapse${item.id}`}
-            className={`accordion-collapse collapse${
-              item.id === 1 ? " show" : ""
-            }`}
+            className={`accordion-collapse collapse${item.id === 1 ? " show" : ""
+              }`}
             aria-labelledby={`heading${item.id}`}
             data-bs-parent="#accordionOne"
           >
