@@ -1,7 +1,6 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import Partners from "../../components/services/Partners";
 import Faq from "../../components/services/Faq";
 import Testimonial from "../../components/home-page/home-1/Testimonial";
 import Block from "../../components/services/Block";
@@ -150,53 +149,17 @@ const AboutUsV1 = () => {
 
       {/*
 			=====================================================
-				Team Section Two
+				container image swirl
 			=====================================================
 			*/}
       <div className="team-section-two position-relative pt-200 lg-pt-120">
-        <div className="container">
-          <div className="wrapper position-relative">
-            <div className="row align-items-center">
-              <div className="col-lg-5" data-aos="fade-right">
-                <div className="title-style-six text-center text-lg-start pb-40 lg-pb-20 md-pb-10">
-                  <h2 className="main-title fw-500 tx-dark">Our Team</h2>
-                </div>
-                {/* /.title-style-six */}
-              </div>
-            </div>
-            {/* /.row */}
-            
-            {/* /.row */}
-
-            <p
-              className="cr-text text-center text-lg tx-dark mt-75 lg-mt-50"
-              data-aos="fade-up"
-            >
-              Our nearly
-              <span className="text-decoration-underline fw-500">8,000+</span>
-              committed staff members are ready to help.
-            </p>
-            <div className="text-center md-mt-20">
-              <Link
-                href="/pages-menu/team-v1"
-                className="btn-twentyTwo fw-500 tran3s"
-                data-aos="fade-left"
-              >
-                View full team
-              </Link>
-            </div>
-          </div>
-          {/* /.wrapper */}
-        </div>
-        {/* /.container */}
+        
         <img
           src="/images/shape/shape_172.svg"
           alt="shape"
           className="lazy-img shapes shape-one d-none d-xl-inline-block"
         />
       </div>
-      {/* /.team-section-two */}
-
       {/*
 			=====================================================
 				Feedback Section Eleven
@@ -262,25 +225,6 @@ const AboutUsV1 = () => {
           </div>
         </div>
         {/* /.container */}
-
-        <div className="partner-section-six position-relative mt-130 lg-mt-80">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-5">
-                <h3 className="title tx-dark text-center text-lg-start md-pb-10 m0">
-                  <span>100+</span> Trusted Partners
-                </h3>
-              </div>
-              <div className="col-xl-6 col-lg-7 ms-auto">
-                <div className="logo-wrapper text-center d-flex justify-content-center justify-content-lg-between flex-wrap">
-                  <Partners />
-                </div>
-                {/* /.logo-wrapper */}
-              </div>
-            </div>
-          </div>
-          {/* /.container */}
-        </div>
       </div>
       {/* /.partner-section-six */}
 

@@ -6,20 +6,20 @@ import Image from "next/image";
 const DefaulHeader = () => {
   const [navbar, setNavbar] = useState(false);
 
-  // const changeBackground = () => {
-  //   if (window.scrollY >= 10) {
-  //     setNavbar(true);
-  //   } else {
-  //     setNavbar(false);
-  //   }
-  // };
+  const changeBackground = () => {
+    if (window.scrollY >= 10) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", changeBackground);
-  //   return () => {
-  //     window.removeEventListener("scroll", changeBackground);
-  //   };
-  // }, []);
+  useEffect(() => {
+    window.addEventListener("scroll", changeBackground);
+    return () => {
+      window.removeEventListener("scroll", changeBackground);
+    };
+  }, []);
 
   return (
     <header
@@ -29,11 +29,11 @@ const DefaulHeader = () => {
     >
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
-          <div className="logo order-lg-0">
+          <div className=" order-lg-0">
             <Link href="/" className="d-block">
-              <h1>RouteRider</h1>
+              <h2>RouteRiders</h2>
               {/* <Image
-                src=""
+                src="/images/media/rrlogo.png"
                 alt="logo"
                 width={95}
                 height={30}
@@ -51,7 +51,7 @@ const DefaulHeader = () => {
               href="/contact"
               className="btn-twentyOne fw-500 tran3s d-none d-lg-block"
             >
-              Contact us
+              Get RR Pro!
             </Link>
           </div>{" "}
           {/* /.right-widget */}

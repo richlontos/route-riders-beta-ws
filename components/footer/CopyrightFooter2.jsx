@@ -66,15 +66,7 @@ const Footer = () => {
           <div className="col-lg-4 order-lg-1 mt-15">
             <p className="copyright text-center m0">
               Copyright © {new Date().getFullYear()}{" "}
-              <a
-                style={{ color: "inherit" }}
-                href="https://themeforest.net/user/ib-themes"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ib-themes
-              </a>
-              inc.
+                RouteRiders inc.
             </p>
           </div>
         </div>

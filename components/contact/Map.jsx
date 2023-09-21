@@ -6,7 +6,7 @@ const Map = () => {
           <div className="gmap_canvas">
             <iframe
               className="gmap_iframe"
-              src="https://maps.google.com/maps?width=600&height=400&hl=en&q=dhaka collage&t=&z=12&ie=UTF8&iwloc=B&output=embed"
+              src="https://www.google.com/maps/place/Irvine,+CA/@33.6864158,-118.0852492,11z/data=!3m1!4b1!4m6!3m5!1s0x80dcdd0e689140e3:0xa77ab575604a9a39!8m2!3d33.6845673!4d-117.8265049!16zL20vMGQ3azF6?hl=en&entry=ttu"
             />
           </div>
         </div>

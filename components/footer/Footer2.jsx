@@ -3,29 +3,16 @@ const columns = [
     title: "Links",
     links: [
       { label: "Home", url: "/" },
-      { label: "Pricing", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Service", url: "/" },
-      { label: "Blog", url: "/" },
+      { label: "FAQ", url: "/pages-menu/faq" },
+      { label: "Blog", url: "/blog/blog-v3" },
+      { label: "About", url: "/pages-menu/about-us-v1" },
     ],
   },
   {
     title: "Support",
     links: [
-      { label: "Item Support", url: "/" },
-      { label: "Forum", url: "/" },
-      { label: "Report Abuse", url: "/" },
-      { label: "Live", url: "/" },
-    ],
-  },
-  {
-    title: "Products",
-    links: [
-      { label: "Web hosting", url: "/" },
-      { label: "Cloud hosting", url: "/" },
-      { label: "WordPress hosting", url: "/" },
-      { label: "VPS hosting", url: "/" },
-      { label: "Dedicated hosting", url: "/" },
+      { label: "Contact us", url: "/contact" },
+      { label: "Top-tier", url: "/pages-menu-pricing" },
     ],
   },
 ];

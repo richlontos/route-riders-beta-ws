@@ -1,6 +1,6 @@
 import React from "react";
 import Seo from "../../components/common/Seo";
-import Header from "../../components/home-page/home-1/Header";
+import Header from "../../components/header/DefaulHeader";
 import Hero from "../../components/home-page/home-1/Hero";
 import Features from "../../components/home-page/home-1/Features";
 import Features2 from "../../components/home-page/home-1/Features2";

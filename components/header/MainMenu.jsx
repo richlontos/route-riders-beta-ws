@@ -23,9 +23,9 @@ const MainMenu = () => {
         <ul className="navbar-nav">
           <li className="d-block d-lg-none">
             <div className="logo">
-              {/* <Link href="/" className="d-block">
-                <img src="" alt="" width={95} />
-              </Link> */}
+              <Link href="" className="d-block">
+                <img src="/images/media/rrlogo.png" alt="" width={95} />
+              </Link>
             </div>
           </li>
 
@@ -52,11 +52,6 @@ const MainMenu = () => {
           <li className="nav-item" >
             <Link href="/contact" className="nav-link">
               Contact us
-            </Link>
-          </li>
-          <li className="nav-item" >
-            <Link href="/pages-menu/pricing" className="nav-link">
-              Top-tier
             </Link>
           </li>
         </ul>
